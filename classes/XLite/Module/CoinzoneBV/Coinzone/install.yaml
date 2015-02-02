@@ -1,0 +1,13 @@
+XLite\Model\Payment\Method:
+  - service_name: Coinzone
+    class: Module\CoinzoneBV\Coinzone\Model\Payment\Processor\Coinzone
+    type: C
+    translations:
+      - code: en
+        name: Bitcoin - powered by Coinzone
+    settings:
+      - name: clientCode
+      - name: apiKey
+XLite\Model\LanguageLabel:
+  - { name: "Client Code", translations: [{ code: en, label: "Client Code" }] }
+  - { name: "API Key", translations: [{ code: en, label: "API Key" }] }
