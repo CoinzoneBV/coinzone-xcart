@@ -2,7 +2,7 @@
 
 #  About
 
-  * Bitcoin payment via coinzone.com for OpenCart.
+  * Bitcoin payment via coinzone.com for X-Cart.
 
 #  System Requirements
 
