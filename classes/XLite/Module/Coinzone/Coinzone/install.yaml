@@ -1,6 +1,6 @@
 XLite\Model\Payment\Method:
   - service_name: Coinzone
-    class: Module\CoinzoneBV\Coinzone\Model\Payment\Processor\Coinzone
+    class: Module\Coinzone\Coinzone\Model\Payment\Processor\Coinzone
     type: C
     translations:
       - code: en

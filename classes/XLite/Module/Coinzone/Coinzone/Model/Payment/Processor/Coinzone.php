@@ -1,5 +1,5 @@
 <?php
-namespace XLite\Module\CoinzoneBV\Coinzone\Model\Payment\Processor;
+namespace XLite\Module\Coinzone\Coinzone\Model\Payment\Processor;
 
 class Coinzone extends \XLite\Model\Payment\Base\WebBased
 {
@@ -9,7 +9,7 @@ class Coinzone extends \XLite\Model\Payment\Base\WebBased
     {
         if (!isset($this->checkoutURL)) {
 
-            require_once LC_DIR_MODULES . 'CoinzoneBV' . LC_DS . 'Coinzone' . LC_DS . 'lib' . LC_DS . 'CoinzoneLib.php';
+            require_once LC_DIR_MODULES . 'Coinzone' . LC_DS . 'Coinzone' . LC_DS . 'lib' . LC_DS . 'CoinzoneLib.php';
 
             $coinzoneSettings = $this->getCoinzoneSettings();
             $coinzone = new \CoinzoneLib($coinzoneSettings['clientCode'], $coinzoneSettings['apiKey']);
@@ -93,7 +93,7 @@ class Coinzone extends \XLite\Model\Payment\Base\WebBased
 
     public function getSettingsWidget()
     {
-        return 'modules/CoinzoneBV/Coinzone/config.tpl';
+        return 'modules/Coinzone/Coinzone/config.tpl';
     }
 
     public function isConfigured(\XLite\Model\Payment\Method $method)

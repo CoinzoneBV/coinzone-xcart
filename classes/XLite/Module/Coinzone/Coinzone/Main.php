@@ -1,5 +1,5 @@
 <?php
-namespace XLite\Module\CoinzoneBV\Coinzone;
+namespace XLite\Module\Coinzone\Coinzone;
 
 abstract class Main extends \XLite\Module\AModule {
     /**
@@ -9,7 +9,7 @@ abstract class Main extends \XLite\Module\AModule {
      */
     public static function getAuthorName()
     {
-        return 'CoinzoneBV';
+        return 'Coinzone B.V.';
     }
 
     /**
