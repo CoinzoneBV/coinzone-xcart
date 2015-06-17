@@ -20,7 +20,7 @@ cloning this repository or downloading the .zip file from the
 
 1. Upload files to your X-Cart installation.
 
-2. Go to your X-Cart administration. Extensions -&gt; Installed Modules -&gt; Find "Coinzone" & click [Enable] & [Save Changes]
+2. Go to your X-Cart administration. Modules -&gt; Find "Coinzone" & click [Enable] & [Save Changes]
 
 3. Go to Store Setup -&gt; Payment Methods. Online Methods -&gt; Add payment method. Find "Coinzone" and click [Choose]
 
